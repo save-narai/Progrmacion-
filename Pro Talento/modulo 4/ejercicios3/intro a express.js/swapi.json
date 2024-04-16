@@ -1,0 +1,7 @@
+json
+{
+  "personaje": {
+    "name": "Luke Skywalker",
+    ...
+  }
+}

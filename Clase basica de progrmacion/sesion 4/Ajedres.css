@@ -1,0 +1,52 @@
+caption {
+padding: 20px;
+font-size: 2.5em;
+font-weight: bold;
+text-align: center;
+}
+
+.tabla_2 {
+width: 40%;
+height: 40vh;
+border-style: groove;
+border-color: rgb(240, 176, 0);
+text-align: center;
+}
+
+.uno {
+background-color: rgb(233, 22, 22);
+font-size: 2.5em;
+width: 30%;
+height: 24vh;
+}
+
+.dos {
+background-color: black;
+color: blanchedalmond;
+ width: 30%;   
+}
+
+.tres {
+background-color: red;
+font-size: 3.1em;
+height: 10%;
+}
+
+.cuatro {
+ background-color: black;
+ color: blanchedalmond;
+ width: 30%;  
+ height: 20vh;
+  }
+
+  .cinco {
+   background-color: red;
+   font-size: 2.5em;
+
+}
+
+.seis {
+   background-color: black;
+   color: blanchedalmond;
+   font-size: 3.1em; 
+}

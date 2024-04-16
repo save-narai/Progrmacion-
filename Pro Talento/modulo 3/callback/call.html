@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callback</title>
+    <link rel="stylesheet" href="call.css">
+
+</head>
+<body>
+  
+<div class="contenedor">
+
+    <a href="#" class="btn btn-1" button onclick="showMessage('Hola mundo!', logMessage)">Mostrar mensaje log</button>
+    <a href="#" class="btn btn-1" button onclick="showMessage('Cuidado!', warnMessage)">Mostrar mensaje de advertencia</button>
+    <a href="#" class="btn btn-1" button onclick="showMessage('Información importante', infoMessage)">Mostrar mensaje de información</button>
+
+
+
+
+</div>
+
+<div class="contenedor">
+
+<a href="#" class="btn btn-4" button onclick="checkDataType('Hola mundo!', printDataType)">Comprobar tipo de dato de 'Hola mundo!'</button>
+<a href="#" class="btn btn-4" button onclick="checkDataType(42, printDataType)">Comprobar tipo de dato de 42</button>
+<a href="#" class="btn btn-4" button onclick="checkDataType(true, printDataType)">Comprobar tipo de dato de true</button>
+
+
+</div>
+
+
+<div class="contenedor">
+
+<a href="#" class="btn btn-5" button onclick="console.log(performOperation(5, 3, sum))">Sumar 5 y 3</button>
+<a href="#" class="btn btn-5" button onclick="console.log(performOperation(5, 3, subtract))">Restar 5 y 3</button>
+<a href="#" class="btn btn-5" button onclick="console.log(performOperation(5, 3, multiply))">Multiplicar 5 y 3</button>
+<a href="#" class="btn btn-5" button onclick="console.log(performOperation(5, 3, divide))">Dividir 5 y 3</button>
+
+</div>
+
+<div class="contenedor">
+ 
+    <a href="#" class="btn btn-3" button onclick="console.log(convertCase('PejeLagarto', toLowerCase))">Convertir a minúsculas</button>
+    <a href="#" class="btn btn-3" button onclick="console.log(convertCase('PejeLagarto', toUpperCase))">Convertir a mayúsculas</button>
+    
+
+
+</div>
+
+
+<div class="contenedor">
+ 
+    <a href="#" class="btn btn-2" button onclick="filterByHours([120, 80, 200, 100], printArray)">Filtrar tiempos mayores a 2 horas</button>
+    
+
+
+</div>
+
+
+
+<script defer src="call.js"></script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño de la interfaz grafica página principal</title>
+    <link rel="stylesheet" href="Index.css">
+</head>
+<body>
+    <div class="resolucion"> 
+     
+        <div class="desktop">
+        </div>
+        
+        <div class="tablet"></div>
+        
+         <div class="movil"></div>
+            </div>
+    
+    
+    
+    
+    <div class="contenedor_flex">
+        <header class="logo1"><img src="data:image/jpeg;base64,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">  
+        <center> <h3> PUG LA MEJOR RAZA </h3> </center></header>
+        <div class="contenedor_central_flex">
+            <nav> <br>
+               <center> <a href="Index.html">Inicio </a> <br> <br> </center>  
+               <center><a href="cuidados para tu pug.html"> cuidados para tu pug</a> <br> <br> </center>  
+              <center>  <a href="Productos.html">Productos </a> <br> <br></center> 
+                
+            </nav>
+
+            <main> <center><h1> CUIDADOS PARA TU PERRO PUG</h1></center> 
+                <p>
+                <strong>Pasos a seguir: 1 </strong>
+                    Es importante que para saber cuidar a un pug antes conozcas su carácter y tengas en cuenta cómo suele relacionarse con los demás. Se trata de un perro alegre y activo que siempre tendrá ganas de jugar y de moverse, sobre todo, en sus primeros años de vida. Pero si le das demasiada coba, lo cierto es que pueden sentirse los dueños de la manada y, por tanto, convertirse en desobedientes y un poco traviesos así que lo mejor es que, 
+                    desde el principio de la convivencia, 
+                    marques tu autoridad f
+                    rente a él para que entienda que debe hacerte caso.
+                    
+                    Son muy sensibles a los sonidos, 
+                    por lo que es importante que 
+                    nunca le grites ni alces demasiado la voz cuando estés con él; en el caso de que quieras adiestrarle, lo mejor es que optes por decir un "No" rotundo y un tanto más autoritario pero nunca gritando ni sobrepasando demasiado los límites. Son animales muy nerviosos por sí mismos por lo que necesitan un dueño que sea relajado, calmado y seguro de sí mismo (para que no se le suba a la chepa).
+                
+                
+                
+                
+                </p>
+              
+              <p>
+
+
+
+
+
+              </p>
+              
+                <center> <table border="1">
+                    <tr>
+                    <td class="pug3"> <img src="https://t2.uc.ltmcdn.com/es/posts/6/3/7/como_cuidar_a_un_carlino_41736_paso_1_600.webp" alt="">     </td>
+
+
+
+                    </tr>
+                
+            </table>
+                <p>
+
+                   <strong> 2</strong>
+                    Si tienes un carlino cachorro en casa debes saber que los cuidados que le prestes deberán ser más específicos pues el animal comienza su aprendizaje desde cero. Durante los primeros 24 meses, estos perros 
+                    serán muy activos y, por ello, es esencial que le des la alimentación necesaria para que tenga todos los nutrientes que requiere y que usará durante la actividad. 
+                    Tendrás que comprar comida para perros pequeños y la distribución de la misma variará dependiendo de la edad:
+                    
+                    Hasta los 10 meses tendrás que darle 3 comidas al día: desayuno, comida y <br>
+                    A partir de los 10 tendrás que <br>
+                    reducir la ingesta y darla tan solo 1 comida al día procurando que siempre sea a la misma. <br>
+                    Tendrás que darle siempre una <br>
+                    alimentación equilibrada donde reciba las proteínas, los hidratos, las grasas y nutrientes que necesita para tener un cuerpo saludable. Consulta con tu veterinario para que pueda asesorarte en la elección de la comida; en unComo te contamos cómo alimentar a un perro cachorro. <br>
+                    
+                    También es importante que, desde 
+                    el inicio de vuestra convivencia, 
+                    empieces a bañarle para que el animal se acostumbre a este hábito y no se estrese. Ten en cuenta que, debido a su característica cara, es importante limpiarle semanalmente las arrugas para evitar que se acumule la suciedad y pueda derivar en una infección; puedes usar un paño húmedo con un poco de jabón para higienizar a tu perro.
+                    
+   
+                    Otro aspecto esencial para cuidar 
+                    a un cachorro carlino es que a
+                    partir de los 45 días de vida comiences con el plan de vacunación estipulado por el veterinario y que conseguirá que viva protegido ante enfermedades.
+
+
+
+
+
+
+
+                </p>
+
+
+                <center> <table border="1">
+                    <tr>
+
+                      <td class="logo4"> <img src="https://t1.uc.ltmcdn.com/es/posts/6/3/7/como_cuidar_a_un_carlino_41736_paso_2_600.webp" alt=""> </td>
+
+                    </tr>
+                
+            </table>
+             </center> 
+            
+<p>
+
+    3
+    El pelaje del carlino debe cuidarse siempre pues, aunque tenga el pelo corto y listo, tenemos que limpiarlo y desenredarlo para que esté en perfectas condiciones; para ello necesitarás un cepillo de cerdas duras y, al menos una vez al mes, pasarle el cepillo.
+     También será esencial que, 
+     cada vez que se ensucie, lo bañes o, en su defecto, le pases un champú seco que conseguirá limpiar su pelaje y conseguir que esté aseado. En la época de muda se tendrá que cepillar de forma más seguida para quitarle el exceso de pelo.
+    
+    Los pliegues de la cara deben 
+    limpiarse semanalmente para 
+    evitar que se acumule suciedad y pueda aparecer alguna infección dermatológica. Un trapo y un poco de jabón apto para perros será necesario para poder mantener en óptimas condiciones la salud del animal.
+
+
+</p>
+
+
+<center> <table border="1">
+    <tr>
+
+<td class="logo5" > <img src="https://t1.uc.ltmcdn.com/es/posts/6/3/7/como_cuidar_a_un_carlino_41736_paso_3_600.webp"></td>
+    </tr>
+
+</table>
+</center> 
+
+
+
+            
+            </main>
+
+            <aside>
+
+                <iframe width="200" height="540" src="https://www.youtube.com/embed/VxpBCBMQ4QM" title="Perro Pug Sabe Cómo Relajarse" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
+            </aside>
+
+
+        </div>
+        <footer> <br> 
+          Copyright@2023 | Jennifer Villabona | chispita25010@gmail.com
+            
+        </footer>
+    </div>
+</body>
+</html>

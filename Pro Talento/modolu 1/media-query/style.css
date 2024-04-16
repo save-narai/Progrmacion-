@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.informacion{
+    display:none;
+}
+.container{
+    display: flex;
+    width: 97vw;
+    height: 97vh;
+    background-color: cyan;
+    padding: 3vw;
+}
+
+.rectangulo{
+    display: flex;
+    height: 30%;
+    width: 95%;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: chocolate;
+}
+
+.cuadrado{
+    width: 20%;
+    height: 80%;
+    background-color: cadetblue;
+}
+
+.texto{
+    display: none;
+}
+
+
+@media screen and (max-width: 740px) and (min-width:430px) {
+    .rectangulo{
+        height: 90%;
+        flex-flow: column;
+        
+    }
+
+    .cuadrado{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 80%;
+        height: 30%;
+    }
+
+    .cuadrado p{
+        color: blue;
+        font-size: xx-large;
+    }
+}
+
+@media screen and (max-width:420px){
+    .container{
+        background-color: burlywood;
+    }
+
+    .cuadrado{
+        display: none;
+    }
+
+    .texto{
+        display: flex;
+    }
+}
+
+@media screen and (min-width:1100px) {
+    .rectangulo{
+        background-color: darkseagreen;
+    }
+
+    .cuadrado{
+        background-color: gold;
+    }
+
+    .cuadrado:hover{
+        background-color: hotpink;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .container{
+        display: none;
+    }
+
+    .informacion{
+        display:flex;
+    }
+}
+
+@media screen and (min-width:4000px) {
+    .container{
+        background-color: black;
+    }
+
+    .informacion{
+        display:flex;
+    }
+}

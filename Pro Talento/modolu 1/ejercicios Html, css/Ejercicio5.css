@@ -1,0 +1,88 @@
+.padre{
+    border: solid 1px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.izquierda{
+    /* border: solid 1px red; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: blue;
+}
+
+.izquierda{
+    /* border: solid 1px red; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: blue;
+}
+
+.derecha{
+    /* border: solid 1px blue; */
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: blue;
+
+}
+
+.up{
+    /* border: solid 1px yellow; */
+    width: 90%;
+    height: 40%;
+    background: white;
+}
+
+.down{
+    /* border: solid 1px pink; */
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    background: white;
+}
+
+.up2{
+    /* border: solid 1px yellow; */
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-end;
+    background: white;
+}
+
+.down2  {
+    /* border: solid 1px pink; */
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background: white;
+}
+
+
+.rojito{
+    /* border: solid 1px rgb(78, 17, 27); */
+    width: 90%;
+    height: 90%;
+    background: red;
+}
+
+.rojito2{
+    /* border: solid 1px rgb(78, 17, 27); */
+    width: 95%;
+    height: 90%;
+    background: red;
+}

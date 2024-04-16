@@ -1,0 +1,47 @@
+body {
+    width: 50%;
+    height: 80vh;
+}
+div {
+background:linear-gradient(to bottom, rgb(70, 206, 70), rgb(214, 62, 87), rgb(56, 56, 167));
+font-size: 1.2em;
+padding: 20px;
+font-family: cursive;
+}
+h1 { 
+background-color: rgb(253, 132, 189);
+color: rgb(36, 199, 144);
+padding: 20px;
+text-align: center;
+}
+
+h3 {
+background-color: plum;
+color: aquamarine;
+padding: 20px;
+text-align: center;
+}
+
+strong {
+
+    color: rgb(29, 224, 159);
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-style: inset;
+    border-color: rgb(233, 59, 59);
+}
+
+img:hover {
+transform: scaleX(0.9);
+border-radius: 30%;   
+ }
+
+ a {
+   color: rgb(213, 245, 31);
+   font-size: 1.6;
+   font-family: cursive; 
+   
+ }
+

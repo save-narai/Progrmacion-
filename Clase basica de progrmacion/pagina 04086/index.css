@@ -1,0 +1,134 @@
+header {
+    background-color: black;
+    }
+    nav {
+    background-color: pink;
+   font-family: cursive;
+     }
+    main {
+    background-color: rgb(255, 255, 255);
+    }
+    
+    aside {
+    background-color: pink;
+    }
+    
+    footer {
+    background-color:black;
+    }
+    
+    body {
+    font-size: 1.3em;
+    
+    }
+    
+    @media all and (min-width: 1024px) 
+    
+     .contenedor_flex {
+    
+     display: flex;
+    flex-direction: column;
+}   
+    
+ .contenedor_central_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+     }
+    
+     header {
+    height: 20vh;
+    
+     }
+    
+     nav {
+    width: 15%;
+    /*height: 65vh;*/
+    
+     }
+    
+     main {
+    width: 70%;
+    
+     }
+    
+     aside {
+    width: 15%;
+     }
+    
+     footer {
+    height: 15vh;
+    text-align: center;
+    color: white;
+     }
+    
+     .logo1 img {
+    width: 200px;
+    height: 100px;
+    margin-top: 10px 10px;
+    margin-left: 80px;
+    margin-bottom: -100px;
+    
+     }
+    
+    .logo span {
+    color: rgb(253, 190, 190);
+    margin-left: 50px;
+    
+    }
+    
+    a {
+    padding: 15px;
+    }
+    
+    h3{
+    font-size: 1.6em;
+    text-align: center;
+    color: red;
+    }
+
+    
+    p {
+    text-align: justify;
+    padding: 15px;
+    font-family: cursive;
+    }
+    
+    .pug1 img {
+        border-style: inset;
+        border-color: rgb(233, 59, 59);  
+    border-radius: 20%;
+    width: 200px;
+    height: 200px;
+
+}
+    
+    .panela2 img {
+        width: 200px;
+        height: 140px;
+        border-style: inset;
+        border-color: rgb(233, 59, 59);  
+    border-radius: 40%;
+    }
+
+
+    
+
+    img:hover {
+        transform: scaleX(0.9);
+        border-radius: 30%;   
+       
+    }
+
+    .logo1 {
+        border-style: inset;
+        border-color: rgb(233, 59, 59); 
+        border-radius: 20%;
+    }
+     
+    .h1 {
+        font-size: 1.6em;
+        text-align: center;
+        color: red;
+
+    }

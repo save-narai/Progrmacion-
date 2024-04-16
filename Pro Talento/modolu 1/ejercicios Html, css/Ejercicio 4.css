@@ -1,0 +1,38 @@
+
+.bloque{
+    background-color: rgb(157, 255, 127);
+}
+.uno{
+    height: 100px;
+    width: 950px;
+    border: 25px solid rgb(243, 112, 36);
+}
+.dos{
+    height: 200px;
+    width: 950px;
+    border: 25px solid rgb(243, 112, 36);
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: solid rgb(243, 112, 36);
+    justify-content: space-evenly;
+    align-content: space-around;
+    height: 200px;
+    width: 950px;
+    border: 25px solid rgb(243, 112, 36);
+}
+.tres{
+    height: 200px;
+    width: 450px;
+}
+.cuatro{
+    height: 200px;
+    width: 450px;
+}
+.cinco{
+    height: 200px;
+    width: 950px;
+    border: 25px solid rgb(243, 112, 36);
+}

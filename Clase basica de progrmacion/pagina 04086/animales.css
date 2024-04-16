@@ -1,0 +1,48 @@
+. {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: cursive;
+
+}  
+
+body{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 70%;
+margin: auto;
+}
+
+
+p {
+height: 300px;
+width: 900px;
+padding:10px 10px;
+font-size: 1.5em;    
+line:height 1.5em; ;
+text-align: justify;
+background-color: antiquewhite;
+
+
+}
+
+.grafica2 {
+    height:200px ;
+    width: 200px;
+    padding: 10px 10px;
+    float: right;
+    margin-right: 15px;
+}
+
+.grafica1{
+    height: 200px;
+    width: 200px;
+    padding: 10px 10px;
+    float: left ;
+    margin-left: 15px;
+
+
+
+}

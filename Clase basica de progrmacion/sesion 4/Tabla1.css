@@ -1,0 +1,29 @@
+table{
+width:60% ;
+height: 50vh;
+text-align: center;
+font-size: 1.7em;
+font-weight: bold;
+}
+
+.Fila1 {
+ background-color: rgb(33, 190, 54);
+ color: rgb(230, 230, 83); 
+ font-family: 'Times New Roman', Times, serif;
+ font: size 1.9em;;
+}
+
+.Fila2 {
+background-color: rgb(23, 189, 122);
+}
+
+.Cero {
+background-color: rgb(226, 20, 20);    
+}
+
+.Fila3 {
+ background-color: rgb(218, 89, 185);
+}
+.izquierda {
+text-align: left;    
+}
